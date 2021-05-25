@@ -1,1 +1,3 @@
 # Mean-Reverting-Cointegration-Weights
+
+Simple code snippet utilizing [Finnhub's API](https://finnhub.io/) to test for cointegration of a pair of asset prices and then returns the weighting ratio according to the eigenvector derived from most mean reverting eigenvalue. As the eigenvector represents a linear combination, one can scale the values to their liking as long as the ratio between the values stays the same, ie; values of 0.2 and -0.3 could be suitable for a tradable unit consisting of 'long 20 shares of X, short 30 shares of Y'. In order to short the unit the value signs are flipped, ie; 'short 20 shares of X, long 30 shares of Y'. Cheers.
